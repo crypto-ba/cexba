@@ -1,9 +1,9 @@
-project_name: MARIONETTE_LOCAL # change to client
-base_url: marionette.localhost # change to client; it needs to be marionette.localhost if localhost_run=true
-company_name: "LTD Company" # change to client
-localhost_run: true
+project_name: CEX.BA # change to client
+base_url: cex.ba # change to client; it needs to be marionette.localhost if localhost_run=true
+company_name: "CEX.ba" # change to client
+localhost_run: false
 logo: "/logo.png"
-support_email: qa@tunex.io # change to client
+support_email: rux@crypto.ba # change to client
 mode: compose # swarm
 log_level: "info"
 production: 0
@@ -16,8 +16,8 @@ database:
   host: db # change for external
   port: 3306 # 5432
   user: root
-  database: marionette
-  password: theSTRONGpassword
+  database: !marionetteRuxan
+  password: !theSTRONGpasswordBuxan
 influxdb:
   image: influxdb:1.8
   database: marionette
