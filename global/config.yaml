@@ -16,8 +16,8 @@ database:
   host: db # change for external
   port: 3306 # 5432
   user: root
-  database: !marionetteRuxan
-  password: !theSTRONGpasswordBuxan
+  database: marionetteRuxan
+  password: theSTRONGpasswordBuxan
 influxdb:
   image: influxdb:1.8
   database: marionette
