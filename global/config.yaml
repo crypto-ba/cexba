@@ -177,20 +177,20 @@ paymentInterfaces:
     min_confirmations: 6
     max_request_blocks: 10
   evm:
-    - id: ETH-MAINNET-PI
-      enabled: false
+    - id: RXCG-MAINNET-PI
+      enabled: enable
       image: marionettestack/testdrive:eth-pi
       type: RPC
       projectId: none
       projectSecret: none
       network: mainnet
-      chainId: 1
-      title: "ETHEREUM Mainnet"
-      subtitle: "ERC20"
-      description: "Ethereum (1)"
-      explorer_address: "https://etherscan.io/address/#{address}"
-      explorer_transaction: "https://etherscan.io/tx/#{txid}"
-      url: "change_me"
+      chainId: 56
+      title: "BSC Mainnet"
+      subtitle: "BEP20"
+      description: "BSC RXCG"
+      explorer_address: "https://bscscan.io/address/#{address}"
+      explorer_transaction: "https://bscscan.io/tx/#{txid}"
+      url: "https://bsc-dataseed.bnbchain.org"
       # verbose: 0
       # wait_confirmation_timeout: 7000
       # min_confirmations: 6
