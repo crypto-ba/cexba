@@ -155,26 +155,26 @@ rateSources:
 paymentInterfaces:
   enabled: true
   log_level: "info"
-  bitcoin:
-    id: "BITCOIN-PI"
-    enabled: false
+  ruxcrypto:
+    id: "RXC-BLOCKCHAIN-PI"
+    enabled: enabled
     image: marionettestack/testdrive:utxo-pi
     # cryptonode_image: none #gitlab.tunex.io:5050/marionette-stack/public/bitcoind24v:latest
-    title: "BITCOIN TESTNET"
-    subtitle: "BITCOIN testnet"
-    description: "Testnet (0)"
+    title: "RXC Mainnet"
+    subtitle: "RXC Mainnet"
+    description: "RXC MainNet"
     logo_url: "https://raw.githubusercontent.com/nsart/coin-logos/master/btc.png"
     verbose: 0
-    network: testnet
-    rpchost: bitcoind
-    rpcport: 18332
-    rpcuser: admin
-    rpcpassword: password
-    port: 18333
-    explorer_address: "https://live.blockcypher.com/btc-testnet/address/#{address}"
-    explorer_transaction: "https://live.blockcypher.com/btc-testnet/tx/#{txid}"
+    network: mainnet
+    rpchost: localhost
+    rpcport: 23505
+    rpcuser: rux
+    rpcpassword: ruxmadafaka
+    port: 23506
+    explorer_address: "https://rxcinfo.crypto.ba/address/#{address}"
+    explorer_transaction: "https://rxcinfo.crypto.ba/btc-testnet/tx/#{txid}"
     wait_confirmation_timeout: 15000
-    min_confirmations: 6
+    min_confirmations: 2
     max_request_blocks: 10
   evm:
     - id: RXCG-MAINNET-PI
