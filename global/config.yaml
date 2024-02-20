@@ -208,7 +208,7 @@ paymentInterfaces:
       description: "ETH ERC20"
       explorer_address: "https://etherscan.io/address/#{address}"
       explorer_transaction: "https://etherscan.io/tx/#{txid}"
-      url: "https://bsc-dataseed.bnbchain.org"
+      url: "https://eth.llamarpc.com"
       # verbose: 0
       # wait_confirmation_timeout: 7000
       # min_confirmations: 6
