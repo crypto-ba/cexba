@@ -188,8 +188,8 @@ paymentInterfaces:
       title: "BSC Mainnet"
       subtitle: "BEP20"
       description: "BSC RXCG"
-      explorer_address: "https://bscscan.io/address/#{address}"
-      explorer_transaction: "https://bscscan.io/tx/#{txid}"
+      explorer_address: "https://bscscan.com/address/#{address}"
+      explorer_transaction: "https://bscscan.com/tx/#{txid}"
       url: "https://bsc-dataseed.bnbchain.org"
       # verbose: 0
       # wait_confirmation_timeout: 7000
