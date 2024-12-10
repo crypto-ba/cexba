@@ -112,7 +112,7 @@ components:
   # client specific
   backend: marionettestack/testdrive:backend
   userapp:
-    image: marionettestack/testdrive:user-app
+    image: cexba/cex-user-app
     terms_and_conditions_url: ""
     custodial_exchange:
       enabled: true
